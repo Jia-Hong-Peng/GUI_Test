@@ -1,5 +1,5 @@
 ﻿<testsuite
-name="Test2"
+name="Test3"
 rxversion="5.0.2.17874"
 id="ed0a01ed-c19c-4c65-a474-f7d5d126d3bb"
 reportfilename="%S_%Y%M%D_%T.rxlog"
@@ -12,19 +12,19 @@ enabletracingscreenshots="True"
 reportlevel="Info;20">
 	<content>
 		<testcase
-		name="TestCase"
-		id="589f0d70-1c12-4167-8193-1ab405780e07">
+		name="TestCase3"
+		id="47ed75c9-268e-45be-bb19-432ba53a11ef">
 			<modulegroup
 			name="InitModuleGroup"
-			id="636b83c9-bfa5-49a3-8c29-7d906f4bf9a8"
-			ref="ca491a4e-aaf1-417a-a37b-21b009f172ec"/>
+			id="78b2608e-b373-4a6d-b6fa-11d2b70d624b"
+			ref="ad831be4-ee02-4a8d-97f6-3cc6fd8af5fd"/>
 			<modulegroup
 			name="TestCaseModuleGroup"
-			id="bc2f9423-927d-43c6-b0b5-cfa3520bfdf8"
-			ref="ebc92618-b6df-4062-9275-68799e42c3d5"/>
+			id="42409384-5347-43b2-89ef-beaf81213e12"
+			ref="d049a8e5-7b66-4c7f-9d42-84d7732116c8"/>
 			<modulegroup
 			name="EndModuleGroup"
-			id="70d03b9a-916d-4584-a51d-456531d75dda"
+			id="cf91fa36-d156-4e9a-bbad-934eee55d751"
 			ref="58d8ba28-e816-45a7-b125-1a156a623aa0"/>
 		</testcase>
 	</content>
@@ -33,7 +33,9 @@ reportlevel="Info;20">
 		<testconfiguration
 		name="TestRun">
 			<testcase
-			id="589f0d70-1c12-4167-8193-1ab405780e07"/>
+			id="47ed75c9-268e-45be-bb19-432ba53a11ef"/>
+			<testcase
+			id="ed0a01ed-c19c-4c65-a474-f7d5d126d3bb"/>
 		</testconfiguration>
 	</testconfigurations>
 	<references/>

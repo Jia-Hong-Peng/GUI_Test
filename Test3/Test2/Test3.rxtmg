@@ -1,58 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <modulegroups
-name="Test2"
+name="Test3"
 rxversion="5.0.2.17874">
 	<modulegroupdef
 	name="InitModuleGroup"
-	id="ca491a4e-aaf1-417a-a37b-21b009f172ec">
+	id="ad831be4-ee02-4a8d-97f6-3cc6fd8af5fd">
 		<testmodule
 		name="KillProcess"
-		id="dbe00730-168c-4363-8116-a854cebb6beb"
-		ref="6cee15a5-a606-4c9c-b36d-17370641e204"
+		id="c7483b78-1f1d-4192-b0d1-0555f12a8ba0"
+		ref="a897e195-5050-4950-9e7b-06c77b0cc516"
 		type="UserCode"/>
 		<testmodule
 		name="OpenVisualStudio2013"
-		id="a26d7516-93b7-4867-b18e-ff5c9daff5bf"
+		id="911d5bc7-1a90-464f-9989-c80f58952994"
 		ref="0c6a5938-1abf-401e-86d4-b5f45276aa32"
 		type="UserCode"/>
 		<testmodule
 		name="DeleteEcatSaveFile"
-		id="68bc5ccf-c1f2-499a-bb38-3d4c00e4258d"
+		id="7b8e3a9d-e96b-4465-9fc7-12263076a70c"
 		ref="d2d0273a-a41b-49af-8583-5a5aa34ec3fe"
 		type="UserCode"/>
 		<testmodule
 		name="RunDebugModule"
-		id="7cb0164f-bb05-4907-8759-af12ee27228e"
+		id="9641bb4c-cf8d-4849-94ca-1bf5341aed65"
 		ref="2d3aebd1-890d-47bb-b25d-473175b08da6"
 		type="Recording"/>
 	</modulegroupdef>
 	<modulegroupdef
 	name="TestCaseModuleGroup"
-	id="ebc92618-b6df-4062-9275-68799e42c3d5">
+	id="d049a8e5-7b66-4c7f-9d42-84d7732116c8">
 		<testmodule
 		name="SetMaster"
-		id="005ca1e6-2ed1-48ab-b3d2-380365846eae"
+		id="40dd9980-ac37-4b83-8cca-5f16e30bcab3"
 		ref="7b602890-5689-4e66-810c-9903af540117"
 		type="Recording"/>
 		<testmodule
 		name="Slave1"
-		id="e7b7e1f0-d6f3-46cc-b7cc-9722179d7bb8"
+		id="ab5c9809-ee2a-4468-9720-f269227f9bec"
 		ref="410edec6-159d-479d-901d-41efa2c60f44"
 		type="Recording"/>
 		<testmodule
 		name="Slave2"
-		id="c8ceeb3f-22a4-4f5a-8b72-3a94cf613755"
+		id="d4e614ff-0af9-49a1-a9c9-774ab61f3e4b"
 		ref="a4ed0ae3-10a6-4db4-9190-234175435b6d"
 		type="Recording"/>
 		<testmodule
 		name="Slave3"
-		id="cd842b54-c8f0-4d73-9e19-41ff720de6d2"
+		id="0fdb3f15-68c2-42df-b071-ab2b0489a7d0"
 		ref="2e0326cf-d212-4a44-8424-8fe561cb59cc"
-		type="Recording"/>
-		<testmodule
-		name="Slave4"
-		id="3d5adc2b-11fe-4e83-b278-d7ab72a34391"
-		ref="939ee3b2-19d0-4ecb-bf35-a0997a89ece0"
 		type="Recording"/>
 	</modulegroupdef>
 	<modulegroupdef

@@ -1,0 +1,1246 @@
+﻿<repository
+name="Test3Repository"
+id="328a1abf-ba19-4a61-9ba5-da4e87c7555f"
+rxversion="5.0.2.17874">
+	<codegen
+	classname="Test3Repository"
+	namespace="Test2"/>
+	<rootfolder
+	name="Root"
+	id="d269307b-4b01-4ff0-9036-b1cb890e7044"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="VisualStudioMainWindow"
+		id="ae8631c6-a227-430f-8c4c-19f55aa8255c"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@automationid='VisualStudioMainWindow']"
+		addcaps="form,uiautomation,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="PARTFocusTarget"
+			id="bd12be25-2dca-446d-9b3f-1e4399b511b6"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/form[@automationid='VisualStudioMainWindow']/container[@name='ToolBarDockTop']/toolbar[@name='標準']/button[@name='偵錯目標']/contextmenu/menuitem[@automationid='PART_FocusTarget']"
+			addcaps="menuitem,uiautomation,uiautomationinvoke"
+			refimgid="000d716e-81ca-4c63-8e14-e62f19bc25ee">
+				/form[@automationid='VisualStudioMainWindow']/?/?/toolbar[@name='&#27161;&#28310;']/button[@name='&#20597;&#37679;&#30446;&#27161;']/?/?/menuitem[@automationid='PART_FocusTarget']
+			</item>
+			<basepath>
+				/form[@automationid='VisualStudioMainWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADySURBVDhPlZMxCsIwFIY9glfwAOIJPIH3EDcR
+nHSR4ubQobgKrlJwEQcP4Ca49AQFJ0lvkGf/Z1Je09TGD16avPf+v03a9v6BHLTWsSl1A0EyPdB8
+uOHrKbqwiSlzQ99MG6ARotlgVQvQw2PwzGA0Fcj5xJUBhvP+Suvxjo7L9Js0YN4mRnAvBpm0JsAV
+oybXoGZgGyCU4sUoonv6YIHNIUDNALh32U4SyrMX14CsgSCDd664BmQNBG/hectYYHMI4D1EpVSB
+cA8RH49cVwZtr9FnIoN7uz6kXya+fi9tJsEGQJrg2viZQii3WyBKCKG1jj9y9gc5Xt+FUAAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MainForm"
+		id="5123ec99-43f0-4585-9eb8-c3fbfec4f251"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='MainForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Diagram1"
+			id="d2b6393b-fb49-4ed8-88ce-e05062e090f1"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel1']/form/element[@controlname='diagram1']"
+			addcaps="unknown,control,nativewindow"
+			refimgid="ec037d7d-e1be-450a-995f-56b30bfa4c90">
+				/form[@controlname='MainForm']//form[@controlname='NWForm']/?/?/container[@controlname='panel1']/form[@controlname='NetworkDiagram']/element[@controlname='diagram1']
+			</item>
+			<item
+			name="Open"
+			id="992ff7ce-71d5-4f30-b782-3e4316db9109"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_General']/container/container/element/combobox/button[@accessiblename='Open']"
+			addcaps="button,accessible"
+			refimgid="69284f9f-6af8-43cd-8392-2384f025a6b4">
+				/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='MasterConfigForm']/?/?/tabpage[@controlname='tabPage_General']//combobox[@accessiblename='2000']/button[@accessiblename='Open']
+			</item>
+			<item
+			name="Close"
+			id="3256401f-575a-4d92-a332-1ecbdbd123b8"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_General']/container/container/element/combobox/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="8fd46bc5-5086-46db-ad02-6afa789b72fe">
+				/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='MasterConfigForm']/?/?/tabpage[@controlname='tabPage_General']//combobox[@accessiblename='2000']/button[@accessiblename='Close']
+			</item>
+			<item
+			name="Text"
+			id="84c8b28a-1195-445f-b175-d67493d013e1"
+			searchtimeout="30000ms"
+			capname="text"
+			addcaps="text,accessible"
+			refimgid="09bcfb3a-5037-4fc3-9af2-adf426e32ad6">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']/?/?/container[@controlname='UserControl_Form']/form[@controlname='ProdListForm']//text[@accessiblerole='Text' and @controltext='-E']
+			</item>
+			<item
+			name="PushButton"
+			id="f3b63f67-11d7-4a69-a6f7-c34ef99ae0cc"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/container/element/button[@accessiblename='']"
+			addcaps="button,accessible"
+			refimgid="526e94b4-8cd6-4ec6-8afb-d4c412a0cc23">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']/?/?/container[@controlname='UserControl_Form']/form[@controlname='ProdListForm']//button[@accessiblename='']
+			</item>
+			<item
+			name="ASDAA2ECoEDrive0x2040608"
+			id="49c96674-924d-4e26-83c7-1f1abdfd4792"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/tree/tree/treeitem[@accessiblename='Servo Drives']/treeitem[@accessiblename~'^ASDA-A2-E\ CoE\ Drive\ \(0x20']"
+			addcaps="treeitem,accessible,accessibletreeitem"
+			refimgid="b7277574-ec63-4964-bef7-1ffd5086ff15">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename~'^ASDA-A2-E\ CoE\ Drive\ \(0x20']
+			</item>
+			<folder
+			name="NWForm"
+			id="9e6d84de-866b-457e-bd99-dd691e0e98c6"
+			searchtimeout="30000ms"
+			capname="form"
+			refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element[@controlname='activeContainerCore']/container[@controlname='UserControl_Form']/form[@controlname='NWForm']"
+			addcaps="form,control,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="UpDownEdit"
+				id="2d06c920-6777-4f22-b40b-350b0d7dfc05"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_General']/container/text[@controlname='upDownEdit']"
+				addcaps="text,control,nativewindow"
+				refimgid="4ff4e22e-a824-45e5-b810-068996e20383">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_General']/container[@controlname='numUpDown_NodeId']/text[@controlname='upDownEdit']
+				</item>
+				<item
+				name="General"
+				id="8a313465-c03e-497b-abb6-188ace556164"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@accessiblename='General']"
+				addcaps="tabpage,accessible"
+				refimgid="bf6fbc23-fc04-483a-a884-6dda349621a2">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@accessiblename='General']
+				</item>
+				<item
+				name="PDOMapping"
+				id="6edf855a-0cf1-4a29-a5c5-466e094064f2"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@accessiblename='PDO Mapping']"
+				addcaps="tabpage,accessible"
+				refimgid="a7bdfaa9-dc88-4538-aa8c-b622641d5f15">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@accessiblename='PDO Mapping']
+				</item>
+				<item
+				name="TabPageGeneral"
+				id="27cdb0fb-d1e0-4936-9c8b-dcf2f5142157"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_General']"
+				addcaps="tabpage,control,nativewindow"
+				refimgid="3d6d296f-5204-429c-ad1c-1e3e34463a42">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_General']
+				</item>
+				<item
+				name="NameRow0"
+				id="3991b51f-82f5-4b74-b947-32a806a8e8fc"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Name row 0']"
+				addcaps="cell,accessible"
+				refimgid="3181ceba-05ae-4167-9e4f-38d7add988c4">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']//tree[@accessiblename='Not Available']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Name row 0']
+				</item>
+				<item
+				name="NameRow01"
+				id="e8d62e77-6c90-4c71-a120-24ccfcedab75"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Output']/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Name row 0']"
+				addcaps="cell,accessible"
+				refimgid="9aebb89d-2e4b-4149-b44f-be77ed059e16">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']//tree[@accessiblerole='Outline']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Name row 0']
+				</item>
+				<item
+				name="Parameters"
+				id="bee2ef36-a072-4fd8-b7d8-ca0df112bc34"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@accessiblename='Parameters']"
+				addcaps="tabpage,accessible"
+				refimgid="ca3ab6d9-b80b-48e0-b97a-fd10fe72179d">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@accessiblename='Parameters']
+				</item>
+				<item
+				name="ButtonAdd"
+				id="1de49f61-7cd2-40e2-8581-ae91b95bce00"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_Para']/container/container[@controlname='tableLayoutPanel12']/element[@controlname='btnParaAdd']/button[@accessiblename='Add']"
+				addcaps="button,accessible"
+				refimgid="e47d6419-cf80-46ef-b584-207d31632c2a">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_Para']/?/?/container[@controlname='tableLayoutPanel12']/?/?/button[@accessiblename='Add']
+				</item>
+				<item
+				name="Position"
+				id="1fa080ff-6ed3-4761-b411-38ff8f32a973"
+				searchtimeout="30000ms"
+				capname="indicator"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/element[@controltypename='VTLScrollBar']/scrollbar/indicator[@accessiblename='Position']"
+				addcaps="indicator,accessible"
+				refimgid="7a0baab3-d593-4635-a47f-c6023f5cebe4">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/element[@controltypename='VTLScrollBar']/scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']
+				</item>
+				<item
+				name="NameRow12"
+				id="2e4f50cb-df5b-47d6-88af-c2c6bd1a837e"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node12']/cell[@accessiblename='Name row 12']"
+				addcaps="cell,accessible"
+				refimgid="f529bc07-1579-4171-97b6-c13f8445fe87">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']//tree[@accessiblename='Not Available']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node12']/cell[@accessiblename='Name row 12']
+				</item>
+				<item
+				name="Position1"
+				id="ea15f725-33af-4c6c-92e2-fb9a617827e7"
+				searchtimeout="30000ms"
+				capname="indicator"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Output']/element[@controltypename='VTLScrollBar']/scrollbar/indicator[@accessiblename='Position']"
+				addcaps="indicator,accessible"
+				refimgid="0f1d36d4-bbcc-4698-a597-5f7aebdf22fe">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']//scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']
+				</item>
+				<item
+				name="NameRow9"
+				id="1796d183-4011-47b8-a2ae-c6d9743081e1"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Output']/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node9']/cell[@accessiblename='Name row 9']"
+				addcaps="cell,accessible"
+				refimgid="75370ad8-80e3-424e-b321-791a388dd2a2">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']//tree[@accessiblerole='Outline']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node9']/cell[@accessiblename='Name row 9']
+				</item>
+				<item
+				name="IOMapping"
+				id="14fae1c7-cfb4-4b93-9bbd-f9f7dffab9c6"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@accessiblename='I/O Mapping']"
+				addcaps="tabpage,accessible"
+				refimgid="c8a128c7-4027-481f-8ae4-e47a52080751">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@accessiblename='I/O Mapping']
+				</item>
+				<item
+				name="SymbolRow0"
+				id="36ef02e5-b85f-4c6e-b9f9-09476acc8747"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_IOMapping']/container/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Symbol row 0']"
+				addcaps="cell,accessible"
+				refimgid="79902309-2722-4375-bd7f-69186baadd0c">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Symbol row 0']
+				</item>
+				<item
+				name="SymbolRow1"
+				id="628521ee-010c-47b2-8706-b98b4906a501"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_IOMapping']/container/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Symbol row 1']"
+				addcaps="cell,accessible"
+				refimgid="1000d534-00ba-4d02-afe7-d1d703a6100b">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Symbol row 1']
+				</item>
+				<item
+				name="SelectTheOutputs"
+				id="8c4e723c-8ec2-4bd4-a025-16c7dd0f2265"
+				searchtimeout="30000ms"
+				capname="tree"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_IOMapping']/container/element/tree[@accessiblename='Select the Outputs']"
+				addcaps="tree,accessible"
+				refimgid="1040501f-2591-4cc0-9888-a2c95b78f1fb">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']
+				</item>
+				<item
+				name="InitCommands"
+				id="0d6e0e50-57bb-4554-bcf0-ce0ee8b82f3d"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@accessiblename='Init Commands']"
+				addcaps="tabpage,accessible"
+				refimgid="7a0bbd2d-b1f4-4e18-b78b-2dabc7f96168">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@accessiblename='Init Commands']
+				</item>
+				<item
+				name="IndexRow1"
+				id="0ad3dac4-c59b-453f-95d7-9118976ec957"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_InitCmd']/container/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Index row 1']"
+				addcaps="cell,accessible"
+				refimgid="7c77b512-c37e-4b10-9696-a03e87e9d6b9">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']//tree[@accessiblename='Init Commands']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Index row 1']
+				</item>
+				<item
+				name="Delete"
+				id="b59b259a-6c9c-4319-b6bd-e65f0dcb5ebd"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_InitCmd']/container/container/element[@controlname='btnInitCmdDelete']/button[@accessiblename='Delete']"
+				addcaps="button,accessible"
+				refimgid="957082f0-2fdb-4184-9fcc-7a14e492fabb">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']/?/?/container[@controlname='tableLayoutPanel9']/?/?/button[@accessiblename='Delete']
+				</item>
+				<item
+				name="LineDown"
+				id="e92440b4-f9e3-4b15-aa90-28db0e81f5eb"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/element[@controltypename='VTLScrollBar']/scrollbar/button[@accessiblename='Line Down']"
+				addcaps="button,accessible"
+				refimgid="8e38740a-ea58-4f18-bf49-bb2995c5d857">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/element[@controltypename='VTLScrollBar']/scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']
+				</item>
+				<item
+				name="LineDown1"
+				id="f3136958-2a22-4248-a2fe-5a4f8abcf177"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Output']/element[@controltypename='VTLScrollBar']/scrollbar/button[@accessiblename='Line Down']"
+				addcaps="button,accessible"
+				refimgid="898c3e06-335a-4c5a-8ed3-2e477a3524a3">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']//scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']
+				</item>
+				<item
+				name="NameRow15"
+				id="de720847-aa6b-4a6d-9aab-2595bd0fb08e"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Output']/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node15']/cell[@accessiblename='Name row 15']"
+				addcaps="cell,accessible"
+				refimgid="aeaa9554-a1a5-4e2d-b681-05037cf0f624">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']//tree[@accessiblerole='Outline']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node15']/cell[@accessiblename='Name row 15']
+				</item>
+				<item
+				name="Edit"
+				id="ad6a8601-d866-4057-bb0e-a70200d88092"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel3']/element[@controlname='btnPdoMappingEdit']/button[@accessiblename='Edit']"
+				addcaps="button,accessible"
+				refimgid="ebe8b22c-9f47-4b95-87a5-7587c08fc299">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel3']/?/?/button[@accessiblename='Edit']
+				</item>
+				<item
+				name="TableLayoutPanel3"
+				id="59629128-6636-49c9-b07e-b31adb616900"
+				searchtimeout="30000ms"
+				capname="container"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel3']"
+				addcaps="container,control,nativewindow"
+				refimgid="f3cb2838-e24b-4138-9a59-1012916ff965">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel3']
+				</item>
+				<item
+				name="NameRow18"
+				id="8dfee0b9-55ae-4a76-a2e4-37a765952622"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Output']/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node18']/cell[@accessiblename='Name row 18']"
+				addcaps="cell,accessible"
+				refimgid="3c0963d4-ee36-4af6-b178-9c330bd7dcc5">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']//tree[@accessiblerole='Outline']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node18']/cell[@accessiblename='Name row 18']
+				</item>
+				<item
+				name="Open"
+				id="1cfab18f-da3a-4e27-b55c-151048e90730"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_General']/container/container/element/combobox/button[@accessiblename='Open']"
+				addcaps="button,accessible"
+				refimgid="b8065863-977f-43e7-9b97-894d4dec1cb8">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='MasterConfigForm']/?/?/tabpage[@controlname='tabPage_General']//combobox[@accessiblename='500']/button[@accessiblename='Open']
+				</item>
+				<item
+				name="EditingControl"
+				id="ef4bb2b6-c957-4623-9c81-668b267d14af"
+				searchtimeout="30000ms"
+				capname="checkbox"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/element[@controltypename='CheckEdit']/checkbox[@accessiblename='Editing control']"
+				addcaps="checkbox,accessible"
+				refimgid="b72aa49c-fbc6-43fb-b388-0b72f8f4df05">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']//checkbox[@accessiblename='Editing control']
+				</item>
+				<item
+				name="NameRow91"
+				id="39b2ac40-8e4a-4eda-a9d9-f58959e03ab1"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_PdoMapping']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node9']/cell[@accessiblename='Name row 9']"
+				addcaps="cell,accessible"
+				refimgid="f2488453-49f4-4896-80ca-1a07f36bc2b9">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']//tree[@accessiblename='Not Available']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node9']/cell[@accessiblename='Name row 9']
+				</item>
+				<item
+				name="SymbolRow4"
+				id="b02514e2-4f1d-4228-afd9-5b6de87d2ccb"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_IOMapping']/container/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node4']/cell[@accessiblename='Symbol row 4']"
+				addcaps="cell,accessible"
+				refimgid="d3d37a59-c469-48f0-9fbc-f5a5350e0aec">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node4']/cell[@accessiblename='Symbol row 4']
+				</item>
+				<item
+				name="ValueRow0"
+				id="a9c4adb6-7327-418c-90d5-48792d1d2e20"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_InitCmd']/container/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Value row 0']"
+				addcaps="cell,accessible"
+				refimgid="d0dd13f1-1eec-443e-bcf0-4d7819b5bbdc">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']//tree[@accessiblename='Init Commands']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Value row 0']
+				</item>
+				<item
+				name="Edit1"
+				id="d8e72572-e069-4eb5-b869-a08c7701ff2e"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_InitCmd']/container/container/element[@controlname='btnInitCmdEdit']/button[@accessiblename='Edit']"
+				addcaps="button,accessible"
+				refimgid="fbd54216-d3a1-40d6-b65a-0fabc827989c">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']/?/?/container[@controlname='tableLayoutPanel9']/?/?/button[@accessiblename='Edit']
+				</item>
+				<item
+				name="ValueRow2"
+				id="1430c8de-4785-4db8-85b8-6e25e8521e60"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_InitCmd']/container/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node2']/cell[@accessiblename='Value row 2']"
+				addcaps="cell,accessible"
+				refimgid="c8e88b57-41d8-42c2-8f27-4c0f81beb149">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']//tree[@accessiblename='Init Commands']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node2']/cell[@accessiblename='Value row 2']
+				</item>
+				<item
+				name="ButtonAdd1"
+				id="365c11f4-f889-4048-86df-dabdf26d069d"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_InitCmd']/container/container/element[@controlname='btnInitCmdNew']/button[@accessiblename='Add']"
+				addcaps="button,accessible"
+				refimgid="ae0a0710-416f-4ca7-a300-15092970d909">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']/?/?/container[@controlname='tableLayoutPanel9']/?/?/button[@accessiblename='Add']
+				</item>
+				<item
+				name="ValueRow3"
+				id="1beecda5-8abb-4a49-88e6-afd43012d617"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']/element/container/form/container/container[@controlname='panel2']/element/container/form/tabpagelist/tabpage[@controlname='tabPage_InitCmd']/container/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node3']/cell[@accessiblename='Value row 3']"
+				addcaps="cell,accessible"
+				refimgid="d4444ae8-bbc7-4001-9cb4-5b8b80fa973a">
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']//tree[@accessiblename='Init Commands']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node3']/cell[@accessiblename='Value row 3']
+				</item>
+				<basepath>
+					/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']
+				</basepath>
+			</folder>
+			<item
+			name="Text1"
+			id="4f17726e-d046-4f83-965e-0a877cc6752f"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/container/text/text[@accessiblerole='Text']"
+			addcaps="text,accessible"
+			refimgid="7928bdd6-a42c-48f6-8755-525f0d465beb">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']/?/?/container[@controlname='UserControl_Form']/form[@controlname='ProdListForm']//text[@accessiblerole='Text']
+			</item>
+			<item
+			name="ProdListPanel"
+			id="f4a5e46e-81f1-42ec-85bb-c8b934cd0959"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']"
+			addcaps="container,control,nativewindow"
+			refimgid="7dd50027-60bd-4551-b741-c053f486771b">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']
+			</item>
+			<item
+			name="SGDVE1CoEDrive0x40000"
+			id="49475c15-3a18-45f6-a357-9e6a22fb574b"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/tree/tree/treeitem[@accessiblename~'^Yaskawa\ Electric\ Corporat']/treeitem/treeitem[@accessiblename~'^SGDV-E1\ CoE\ Drive\ \(0x4000']"
+			addcaps="treeitem,accessible,accessibletreeitem"
+			refimgid="df485d28-8614-4493-8d7d-7ac2779a6735">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/tree[@accessiblerole='Outline']//treeitem[@accessiblename~'^SGDV-E1\ CoE\ Drive\ \(0x4000']
+			</item>
+			<item
+			name="SGDVE1CoEDrive0x10000"
+			id="5348e8aa-59e1-4018-bb5a-c2447516955f"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/tree/tree/treeitem[@accessiblename~'^Yaskawa\ Electric\ Corporat']/treeitem/treeitem[@accessiblename~'^SGDV-E1\ CoE\ Drive\ \(0x1000']"
+			addcaps="treeitem,accessible,accessibletreeitem"
+			refimgid="6d0d90af-9c7f-4840-ba49-4307b905bbad">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/tree[@accessiblerole='Outline']//treeitem[@accessiblename~'^SGDV-E1\ CoE\ Drive\ \(0x1000']
+			</item>
+			<item
+			name="DocumentsHost"
+			id="c9e2a044-8725-4556-afb7-97a90245b9b1"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']"
+			addcaps="unknown,control,nativewindow"
+			refimgid="22aabe8a-ec20-4cb0-9692-698e73377839">
+				/form[@controlname='MainForm']/element[@controltypename='DocumentsHost']
+			</item>
+			<item
+			name="ECATBuilder"
+			id="a4691a66-fbd1-46dd-9611-57f00bd3f3d7"
+			searchtimeout="30000ms"
+			capname="titlebar"
+			refpath="/form[@controlname='MainForm']/titlebar[@accessiblerole='TitleBar']"
+			addcaps="titlebar,accessible"
+			refimgid="b6b64eeb-47ab-4d29-9150-34af8aecea33">
+				/form[@controlname='MainForm']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<item
+			name="Outline"
+			id="885bf0aa-ab79-4a36-9087-2541381b5431"
+			searchtimeout="30000ms"
+			capname="tree"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/tree/tree[@accessiblerole='Outline']"
+			addcaps="tree,accessible"
+			refimgid="7dc58e9f-cdc9-4273-aee1-bcfa366f101e">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/tree[@accessiblerole='Outline']
+			</item>
+			<item
+			name="R1EC55000x100000"
+			id="6ca9da95-6269-48c0-a25a-b7d7e72c04dc"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/tree/tree/treeitem[@accessiblename='Delta Electronics, Inc.']/treeitem[@accessiblename='System Couplers']/treeitem[@accessiblename='R1-EC5500 (0x100000)']"
+			addcaps="treeitem,accessible,accessibletreeitem"
+			refimgid="bd90d47d-c95d-43bb-a020-899c48176bba">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/tree[@accessiblerole='Outline']//treeitem[@accessiblename='R1-EC5500 (0x100000)']
+			</item>
+			<item
+			name="Outline1"
+			id="a8d6d86b-c8df-4f09-bab2-ced2f71419c5"
+			searchtimeout="30000ms"
+			capname="tree"
+			refpath="/form[@controlname='MainForm']/container[@caption='Project Tree']/container/container/form/tree/tree[@accessiblerole='Outline']"
+			addcaps="tree,accessible"
+			refimgid="e6651185-7038-4975-b7a2-20fa9233872e">
+				/form[@controlname='MainForm']//form[@controlname='ProjTreeForm']/tree[@controlname='projTreeView']/tree[@accessiblerole='Outline']
+			</item>
+			<item
+			name="ExportENI"
+			id="e66a88c6-d840-4344-b9df-a13c82ec14fc"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='MainForm']/element[@controlname='barDockControlTop']/element[@controltypename='DockedBarControl' and @instance='2']/toolbar/button[@accessiblename='Export ENI']"
+			addcaps="button,accessible"
+			refimgid="316af2cc-6edc-4c7f-b3b7-f0b6c48d93c1">
+				/form[@controlname='MainForm']//toolbar[@accessiblename='Operate']/button[@accessiblename='Export ENI']
+			</item>
+			<item
+			name="SystemCouplers"
+			id="cc13d6e1-7e59-4319-a02f-ea434fc28c2d"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/tree/tree/treeitem[@accessiblename='System Couplers']"
+			addcaps="treeitem,accessible,accessibletreeitem"
+			refimgid="a03ca224-9b9a-4720-84d6-ee0c6397a13d">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/?/?/treeitem[@accessiblename='System Couplers']
+			</item>
+			<item
+			name="R1EC55000x1000001"
+			id="46a701a2-8f31-4030-987b-518d2ca16327"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/tree/tree/treeitem[@accessiblename='System Couplers']/treeitem[@accessiblename='R1-EC5500 (0x100000)']"
+			addcaps="treeitem,accessible,accessibletreeitem"
+			refimgid="23860c0b-fdf1-40cf-a803-4ac5122affe8">
+				/form[@controlname='MainForm']/container[@controlname='prodListPanel']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='R1-EC5500 (0x100000)']
+			</item>
+			<item
+			name="ASDAA2ECoEDrive0x20406081"
+			id="06e25436-04b8-4a32-b94a-4bed905126d3"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@controlname='MainForm']/container[@controlname='prodListPanel']/container/container/form/container/tree/tree/treeitem[@accessiblename='Delta Electronics, Inc.']/treeitem[@accessiblename='Servo Drives']/treeitem[@accessiblename~'^ASDA-A2-E\ CoE\ Drive\ \(0x20']"
+			addcaps="treeitem,accessible,accessibletreeitem"
+			refimgid="630dcd09-b7ec-443a-bb24-deb00b0ea843">
+				/form[@controlname='MainForm']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/tree[@accessiblerole='Outline']/?/?/treeitem[@accessiblename='Servo Drives']/treeitem[@accessiblename~'^ASDA-A2-E\ CoE\ Drive\ \(0x20']
+			</item>
+			<basepath>
+				/form[@controlname='MainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIUSURBVDhPY0AGflZWvO4uTjOJwcbGxqxQbRDg
+7uDgv2/vvv/37z8giAvy8u6FWFhwQrVCQFhISMTCBf3/Hzyo+X/mzJn/ft7e/6WkpMA4NDgIzu7t
+7vnfUFf3G6sB3Z1t/9esnvd/5Yrl//19vP/Ly8mBcWhwMJzd19uL3YCk+HjvnTt3/X/16jUYlxQV
+wdmpSUlw9uvXb7AbkJyc7LFg/nyw80E4JysTzg4NCoKzT506NQgMaG5qeuPh4cEO1QoBbm72Ku4u
+zidh2M3F6aafj88zIPuju7PzbZj43Nmzb2zatEkEqo2Bobu7Wx6ItWB4UneC06m94v+x4aO7JD8i
+qwVhhuiIiIMxUZE/YTg+JvjXgd1i/y9d4sfAKUlm/5DVgjDUHQwMV0+I/gfRoaGhzFFRpgbYcFyE
+qTZYMTpYtmzZ34mTJgFtSLoA4s9fsOAfiB8VGbkOxF+4cOG/yZMn/4+OjLgN4q9dt+41iJ+Xm/MM
+xGeYMmXKXxMTk/9Feb6ffr5m2tHa2vIfxK+vsnsB4vf394P56UkeX0H8Zctm/ATxkxITnoMNmD59
++l95efn/aSkhTw/vkC8GavgHUpCR4nUJxJ80aeI/dXX1/7FRfq9B/KVL5n5RVFT8n5KcBDEA5IKw
+sDCgE8Mvgvg9PT1/42Jj/wcHBYC90NfX9y8yIuJ/UGAA2AsLFy16FR4e/j8xIe45ACuv2g6dmtKo
+AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="EIPBuilderVshost"
+		id="5e535f8d-1884-4bbb-97f6-e060163f3647"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='' and @processname='EIP Builder.vshost' and @controltypename='ComboBoxPopupListBoxForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ListItem4000"
+			id="3e55cb96-9dc3-40d2-b85e-82a85096010b"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@title='' and @processname='EIP Builder.vshost' and @controltypename='ComboBoxPopupListBoxForm']/element/list/listitem[@accessiblename='4000']"
+			addcaps="listitem,accessible"
+			refimgid="a477ff63-365e-41c9-bb06-91835e344d88">
+				/form[@processname='EIP Builder.vshost' and @controltypename='ComboBoxPopupListBoxForm']/?/?/list[@accessiblename='']/listitem[@accessiblename='4000']
+			</item>
+			<basepath>
+				/form[@processname='EIP Builder.vshost' and @controltypename='ComboBoxPopupListBoxForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Explorer"
+		id="5592eddb-38d0-4d34-b6af-f753c95c01a6"
+		searchtimeout="30000ms"
+		capname="menubar"
+		refpath="/menubar[@processname='explorer']"
+		addcaps="menubar,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ECATBuilder"
+			id="5071fcd9-5060-4f7e-b437-777bbd8fd186"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename='ECAT Builder']"
+			addcaps="button,accessible"
+			refimgid="fc2aeb1e-4928-422e-bcd7-fd13c18700c4">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='&#22519;&#34892;&#20013;&#30340;&#25033;&#29992;&#31243;&#24335;']/button[@accessiblename='ECAT Builder']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="AddSlaveParameterForm"
+		id="5407d3b3-aa06-4524-86f8-a58ea99209f6"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='AddSlaveParameterForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Position"
+			id="9979525b-0c1d-4a02-9dfb-dd72b43bfcab"
+			searchtimeout="30000ms"
+			capname="indicator"
+			refpath="/form[@controlname='AddSlaveParameterForm']/container/container[@controlname='panel1']/element/element[@controltypename='VTLScrollBar']/scrollbar/indicator[@accessiblename='Position']"
+			addcaps="indicator,accessible"
+			refimgid="2caabf33-3aa1-4c26-8157-82265b646a91">
+				/form[@controlname='AddSlaveParameterForm']/container[@controlname='tableLayoutPanel2']//scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']
+			</item>
+			<item
+			name="LineDown"
+			id="6e79fdff-8314-4838-919c-2302811f5b33"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='AddSlaveParameterForm']/container/container[@controlname='panel1']/element/element[@controltypename='VTLScrollBar']/scrollbar/button[@accessiblename='Line Down']"
+			addcaps="button,accessible"
+			refimgid="14316f09-a765-4ce5-b131-957d6bcf5ae1">
+				/form[@controlname='AddSlaveParameterForm']/container[@controlname='tableLayoutPanel2']//scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']
+			</item>
+			<item
+			name="Node553"
+			id="1a30af14-11e4-4a90-a63b-1eda9f7d17e9"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@controlname='AddSlaveParameterForm']/container/container[@controlname='panel1']/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node553']"
+			addcaps="treeitem,accessible"
+			refimgid="39575a7f-0eed-4988-955b-0634fd311544">
+				/form[@controlname='AddSlaveParameterForm']//tree[@accessiblerole='Outline']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node553']
+			</item>
+			<item
+			name="ButtonOk"
+			id="5894b8a0-768d-4bd0-a2d3-9a1b1413fcf9"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='AddSlaveParameterForm']/container/container[@controlname='tableLayoutPanel1']/element[@controlname='btnOk']/button[@accessiblename='Ok']"
+			addcaps="button,accessible"
+			refimgid="ff171d12-00a9-4a8e-a516-74a661a28b4c">
+				/form[@controlname='AddSlaveParameterForm']/?/?/container[@controlname='tableLayoutPanel1']/?/?/button[@accessiblename='Ok']
+			</item>
+			<item
+			name="TableLayoutPanel2"
+			id="88a7ed84-04fa-42e1-b0bd-f6c87101835a"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@controlname='AddSlaveParameterForm']/container[@controlname='tableLayoutPanel2']"
+			addcaps="container,control,nativewindow"
+			refimgid="28d14233-2cfe-4a2d-a377-341a7ddee653">
+				/form[@controlname='AddSlaveParameterForm']/container[@controlname='tableLayoutPanel2']
+			</item>
+			<item
+			name="Node229"
+			id="8152b413-5d08-4b4f-a037-657582053f85"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@controlname='AddSlaveParameterForm']/container/container[@controlname='panel1']/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node229']"
+			addcaps="treeitem,accessible"
+			refimgid="230c079e-d6f5-4549-b49f-b17540452b38">
+				/form[@controlname='AddSlaveParameterForm']//tree[@accessiblerole='Outline']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node229']
+			</item>
+			<basepath>
+				/form[@controlname='AddSlaveParameterForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="EIPBuilderVshost1"
+		id="5fdb35a1-aafb-47df-94b9-db8f5d5909c6"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='' and @processname='EIP Builder.vshost']"
+		addcaps="form,nativewindow"
+		refimgid="b9ac650b-a594-4592-bc08-eb5168ea3663"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ListItem2000"
+			id="3a896f9e-b129-41a4-bf15-8755412d24eb"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@title='' and @processname='EIP Builder.vshost' and @controltypename='ComboBoxPopupListBoxForm']/element/list/listitem[@accessiblename='2000']"
+			addcaps="listitem,accessible"
+			refimgid="44395134-e282-4450-a233-1befbd3e738f">
+				/form[@title='' and @processname='EIP Builder.vshost']/?/?/list[@accessiblename='']/listitem[@accessiblename='2000']
+			</item>
+			<basepath>
+				/form[@title='' and @processname='EIP Builder.vshost']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJRSURBVDhPpZPrS5NhGIf3l/QhoqQiMgii6OBx
+5cwPElaEfSqIJJCgzAikQgsELSlI7SCUnayoIKkPghWZhxxpc861Oedh6jZ1mzu8x1092wS10KBu
++H177+t3Pc/LY/jvaWgxc+eVg5rmAaqafnC50cyZ6k5OVHZTXPGFonOtFJa+pKDkybIcPP0Y45Fy
+DHXPbTS1azS2adxqlal+HaHyWZCKR7OUN/k5e9dHye1JTtaOc7zazdEqF4euOMkvM7MmbQeG2mYz
+dW8C3Hwb5uKDKU7dcFN83cmxaw4OX7VTWGGj4NIgpnIrBy4MYCyzkHveQkZpN+vSjRhqGl7gD8QI
+RzXmRUIRlWBYISAyG0rFG1DwzMi4vTIOj4R1TKLL6mHj1u0CUN/CahOPg6JCRIozF9GZCmqM+lUs
+Li8bNm/DcP/p+4VP/xxNB0mJMx/TmZnXmJzTcPsUfk4q9Az9BaCLZlksJ5vDOtOieUw0O6cUrOMy
+ndbVAAltTSzLcYJRHV9IY2JWw+VVsE0o9I/IfLYIwKYVAIvqcWbEckpdxS7ULaMyvcMS7X0rAJLq
+akJdT6kHUuqOpLrCd5dMl0OizZwApC8HJG9cg6g4d2Cp+nRKvc8t0eOU6LDF+ND7G0Dsoi6oh4S6
+P3nrKiMJdc+i+ld7jE/WKO96vKxPAO4tMRDlSOKfh2IIAEzMgcsXZ8ij0T+q8W1YpcOu8HFQTgLW
+pm0Rb6H+Ibn788kxmsgWyRLJFMnINbEvx8Te7Dz2iOzOymNXZio7M1LJyS9i4U3+6xgMvwD+1+a2
+GORSxAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Warning"
+		id="dc491472-9a51-4fca-bec4-4c9079ca9a06"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Warning!']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonOK"
+			id="3c6a9562-ea86-4516-bac8-4859bc58794d"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Warning!']/element[@controltypename='SimpleButton' and @instance='0']/button[@accessiblename='OK']"
+			addcaps="button,accessible"
+			refimgid="36781adb-a948-4943-b5e7-684ec18310c6">
+				/form[@title='Warning!']/?/?/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title='Warning!']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="PdoSettingForm"
+		id="d3de15d4-cf7c-4744-a4ac-b144a7327591"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='PdoSettingForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonAdd"
+			id="fc0601b5-aa75-49d5-91f8-7599fdb80714"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='PdoSettingForm']/container/container[@controlname='tableLayoutPanel3']/container/container[@controlname='tableLayoutPanel6']/element[@controlname='btnAdd']/button[@accessiblename='Add']"
+			addcaps="button,accessible"
+			refimgid="252ffb3a-8e68-463f-92e4-bf38ab724a96">
+				/form[@controlname='PdoSettingForm']/container[@controlname='tableLayoutPanel1']/container[@controlname='tableLayoutPanel3']//button[@accessiblename='Add']
+			</item>
+			<item
+			name="ButtonOK"
+			id="03538041-e6f2-48e4-a5c2-c9ff6fe78d09"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='PdoSettingForm']/container/container[@controlname='tableLayoutPanel3']/container/container[@controlname='tableLayoutPanel7']/element[@controlname='btnOK']/button[@accessiblename='OK']"
+			addcaps="button,accessible"
+			refimgid="0ace6d27-b0f5-4fbe-91d8-3c3c09b20698">
+				/form[@controlname='PdoSettingForm']/container[@controlname='tableLayoutPanel1']/container[@controlname='tableLayoutPanel3']//button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@controlname='PdoSettingForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIUSURBVDhPY0AGflZWvO4uTjOJwcbGxqxQbRDg
+7uDgv2/vvv/37z8giAvy8u6FWFhwQrVCQFhISMTCBf3/Hzyo+X/mzJn/ft7e/6WkpMA4NDgIzu7t
+7vnfUFf3G6sB3Z1t/9esnvd/5Yrl//19vP/Ly8mBcWhwMJzd19uL3YCk+HjvnTt3/X/16jUYlxQV
+wdmpSUlw9uvXb7AbkJyc7LFg/nyw80E4JysTzg4NCoKzT506NQgMaG5qeuPh4cEO1QoBbm72Ku4u
+zidh2M3F6aafj88zIPuju7PzbZj43Nmzb2zatEkEqo2Bobu7Wx6ItWB4UneC06m94v+x4aO7JD8i
+qwVhhuiIiIMxUZE/YTg+JvjXgd1i/y9d4sfAKUlm/5DVgjDUHQwMV0+I/gfRoaGhzFFRpgbYcFyE
+qTZYMTpYtmzZ34mTJgFtSLoA4s9fsOAfiB8VGbkOxF+4cOG/yZMn/4+OjLgN4q9dt+41iJ+Xm/MM
+xGeYMmXKXxMTk/9Feb6ffr5m2tHa2vIfxK+vsnsB4vf394P56UkeX0H8Zctm/ATxkxITnoMNmD59
++l95efn/aSkhTw/vkC8GavgHUpCR4nUJxJ80aeI/dXX1/7FRfq9B/KVL5n5RVFT8n5KcBDEA5IKw
+sDCgE8Mvgvg9PT1/42Jj/wcHBYC90NfX9y8yIuJ/UGAA2AsLFy16FR4e/j8xIe45ACuv2g6dmtKo
+AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="AddPdoEntryForm"
+		id="b0f7a0ea-1ac7-4d0e-995c-e6be974f0b8d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='AddPdoEntryForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Position"
+			id="8a181856-3b54-42a7-b915-774b6eba8ada"
+			searchtimeout="30000ms"
+			capname="indicator"
+			refpath="/form[@controlname='AddPdoEntryForm']/container/container[@controlname='tableLayoutPanel11']/element/element[@controltypename='VTLScrollBar']/scrollbar/indicator[@accessiblename='Position']"
+			addcaps="indicator,accessible"
+			refimgid="5be705e8-ec9f-4b8f-b81b-8c924b98bc2e">
+				/form[@controlname='AddPdoEntryForm']/?/?/container[@controlname='tableLayoutPanel11']//scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']
+			</item>
+			<item
+			name="LineDown"
+			id="c28c5884-8708-4050-ba0d-c4c185602d06"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='AddPdoEntryForm']/container/container[@controlname='tableLayoutPanel11']/element/element[@controltypename='VTLScrollBar']/scrollbar/button[@accessiblename='Line Down']"
+			addcaps="button,accessible"
+			refimgid="9a2333cf-bd53-478d-a620-24858e589dc5">
+				/form[@controlname='AddPdoEntryForm']/?/?/container[@controlname='tableLayoutPanel11']//scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']
+			</item>
+			<item
+			name="IndexRow25"
+			id="c0d745bc-93ff-4caf-b016-69c57c9ee866"
+			searchtimeout="30000ms"
+			capname="cell"
+			refpath="/form[@controlname='AddPdoEntryForm']/container/container[@controlname='tableLayoutPanel11']/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node25']/cell[@accessiblename='Index row 25']"
+			addcaps="cell,accessible"
+			refimgid="6216de2d-3054-43be-b175-ffd1e719f600">
+				/form[@controlname='AddPdoEntryForm']//tree[@accessiblename='CoE Object-Dictionary']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node25']/cell[@accessiblename='Index row 25']
+			</item>
+			<item
+			name="ButtonOk"
+			id="33accebd-fa2e-423e-a3ba-641846cd2e8f"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='AddPdoEntryForm']/container/container[@controlname='tableLayoutPanel10']/element[@controlname='btnOk']/button[@accessiblename='Ok']"
+			addcaps="button,accessible"
+			refimgid="2804c74a-3f79-43c0-bec9-51ffca29d7b8">
+				/form[@controlname='AddPdoEntryForm']/?/?/container[@controlname='tableLayoutPanel10']/?/?/button[@accessiblename='Ok']
+			</item>
+			<item
+			name="TableLayoutPanel11"
+			id="df543c4d-b51c-433c-ac0e-be6186e59121"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@controlname='AddPdoEntryForm']/container/container[@controlname='tableLayoutPanel11']"
+			addcaps="container,control,nativewindow"
+			refimgid="96bda2aa-673e-49f1-b964-bc13cf685f03">
+				/form[@controlname='AddPdoEntryForm']/?/?/container[@controlname='tableLayoutPanel11']
+			</item>
+			<basepath>
+				/form[@controlname='AddPdoEntryForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="AddCoEInitCommandForm"
+		id="d58b012d-9c72-4921-8837-09b5cc2be00b"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='AddCoEInitCommandForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonOk"
+			id="5a10acf8-33bb-4e83-aea7-3347100e5255"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='AddCoEInitCommandForm']/container/container[@controlname='tableLayoutPanel2']/element[@controlname='btnOk']/button[@accessiblename='Ok']"
+			addcaps="button,accessible"
+			refimgid="ffbf3135-7d1e-4625-9350-a73fe8c446d7">
+				/form[@controlname='AddCoEInitCommandForm']/?/?/container[@controlname='tableLayoutPanel2']/?/?/button[@accessiblename='Ok']
+			</item>
+			<folder
+			name="Panel11"
+			id="99a5078e-1f23-48fe-bef7-bca1b4112d5c"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@controlname='AddCoEInitCommandForm']/container[@controlname='tableLayoutPanel1']/container[@controlname='panel1']"
+			addcaps="container,control,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Panel1"
+				id="04117db3-4f13-429b-9d8a-2faa39c69132"
+				searchtimeout="30000ms"
+				capname="container"
+				refpath="/form[@controlname='AddCoEInitCommandForm']/container/container[@controlname='panel1']"
+				addcaps="container,control,nativewindow"
+				refimgid="d3a3977f-053e-424e-9353-31a76022612e">
+					/form[@controlname='AddCoEInitCommandForm']/?/?/container[@controlname='panel1']
+				</item>
+				<item
+				name="LbValue"
+				id="718651df-789f-4101-acba-3fa2f091ccd6"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@controlname='AddCoEInitCommandForm']/container/container[@controlname='panel1']/text[@controlname='lb_Value']"
+				addcaps="text,control,nativewindow"
+				refimgid="547eaf5a-02b0-4682-bdf4-4c60f0ec387d">
+					/form[@controlname='AddCoEInitCommandForm']/?/?/container[@controlname='panel1']/text[@controlname='lb_Value']
+				</item>
+				<item
+				name="TBData"
+				id="8a5139f9-6110-404b-9bbc-fee7048e9aa3"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@controlname='AddCoEInitCommandForm']/container/container[@controlname='panel1']/text[@controlname='tB_Data']"
+				addcaps="text,control,nativewindow"
+				refimgid="5553ae6b-1104-4a21-924a-8687cf2682e3">
+					/form[@controlname='AddCoEInitCommandForm']/?/?/container[@controlname='panel1']/text[@controlname='tB_Data']
+				</item>
+				<basepath>
+					/form[@controlname='AddCoEInitCommandForm']/?/?/container[@controlname='panel1']
+				</basepath>
+			</folder>
+			<item
+			name="Position"
+			id="4ba6ba77-762d-4038-9012-51d5b7023024"
+			searchtimeout="30000ms"
+			capname="indicator"
+			refpath="/form[@controlname='AddCoEInitCommandForm']/container/container[@controlname='tableLayoutPanel4']/element/element[@controltypename='VTLScrollBar']/scrollbar/indicator[@accessiblename='Position']"
+			addcaps="indicator,accessible"
+			refimgid="3df41adc-245f-421e-902f-83ff0a7b3aa6">
+				/form[@controlname='AddCoEInitCommandForm']/?/?/container[@controlname='tableLayoutPanel4']//scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']
+			</item>
+			<item
+			name="LineDown"
+			id="0296050b-9b04-449c-aebb-09f141849852"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='AddCoEInitCommandForm']/container/container[@controlname='tableLayoutPanel4']/element/element[@controltypename='VTLScrollBar']/scrollbar/button[@accessiblename='Line Down']"
+			addcaps="button,accessible"
+			refimgid="7a601cf5-b0b8-4d7c-8925-bd471adc13d0">
+				/form[@controlname='AddCoEInitCommandForm']/?/?/container[@controlname='tableLayoutPanel4']//scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']
+			</item>
+			<item
+			name="IndexRow180"
+			id="2ca4b4df-b23a-46cf-83bc-09b5c968ee11"
+			searchtimeout="30000ms"
+			capname="cell"
+			refpath="/form[@controlname='AddCoEInitCommandForm']/container/container[@controlname='tableLayoutPanel4']/element/tree/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node180']/cell[@accessiblename='Index row 180']"
+			addcaps="cell,accessible"
+			refimgid="17e4256c-f23d-440f-b704-4689ff945040">
+				/form[@controlname='AddCoEInitCommandForm']//tree[@accessiblename='CoE Object Dictionary']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node180']/cell[@accessiblename='Index row 180']
+			</item>
+			<basepath>
+				/form[@controlname='AddCoEInitCommandForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="另存新檔"
+		id="2417aeb5-aeb6-49f0-9d45-5784f605317d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='另存新檔']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="PageDown"
+			id="91125755-6125-48f0-a656-6da5d07ec521"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='另存新檔']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']/scrollbar/button[@text='PageDown']"
+			addcaps="button"
+			refimgid="c399e4f4-b34f-42a1-b7ea-9a6f63522602">
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']/element[@class='DUIViewWndClassName']//tree[@controlid='100']/scrollbar[@style='Vertical']/button[@text='PageDown']
+			</item>
+			<item
+			name="本機磁碟D"
+			id="7d314895-b7fd-4d5d-87f7-a092bf85dbec"
+			searchtimeout="30000ms"
+			capname="treeitem"
+			refpath="/form[@title='另存新檔']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']/treeitem[@text='桌面']/treeitem[@text='電腦']/treeitem[@text='本機磁碟 (D:)']"
+			addcaps="treeitem"
+			refimgid="392b84d0-76fa-4d80-99ed-13ab593f9cd5">
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']/element[@class='DUIViewWndClassName']/container/element[2]/?/?/tree[@controlid='100']//treeitem[@text='&#26412;&#27231;&#30913;&#30879; (D:)']
+			</item>
+			<item
+			name="Button取消"
+			id="05e2f1ed-fc98-4f4e-81e9-df48015ec5f8"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='另存新檔']/button[@text='取消']"
+			addcaps="button,nativewindow"
+			refimgid="5bd4abf5-0813-41c5-92c6-202c668836b0">
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']/button[@text='&#21462;&#28040;']
+			</item>
+			<item
+			name="ToolBar1001"
+			id="595652bd-1068-4f3e-8599-3685ce863fb6"
+			searchtimeout="30000ms"
+			capname="toolbar"
+			refpath="/form[@title='另存新檔']/element[@class='WorkerW']/container/element[@controlid='41477']/progressbar/element/toolbar[@controlid='1001']"
+			addcaps="toolbar,nativewindow"
+			refimgid="909df7c6-b5b4-4409-bc80-f977f5843ee4">
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']/element[@class='WorkerW']/?/?/element[@controlid='41477']//toolbar[@controlid='1001']
+			</item>
+			<item
+			name="Text1001"
+			id="3bf15bb8-100f-43ab-a0d2-05d87e0c0158"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='另存新檔']/element[@class='DUIViewWndClassName']/container/element[@class='FloatNotifySink' and @instance='0']/combobox/text[@controlid='1001']"
+			addcaps="text,nativewindow"
+			refimgid="77e55022-2728-4f74-94cd-74a3d104eb17">
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']/element[@class='DUIViewWndClassName']//combobox[@class='ComboBox']/text[@controlid='1001']
+			</item>
+			<item
+			name="存檔S"
+			id="99e66908-d5be-4d88-9d56-0646ae2265da"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='另存新檔']/button[@text='存檔(&amp;S)']"
+			addcaps="button,nativewindow"
+			refimgid="71e8afb4-9886-4f25-aa45-c04d3cd9051b">
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']/button[@text='&#23384;&#27284;(&amp;S)']
+			</item>
+			<item
+			name="SomeIndicator"
+			id="3fa707a6-f082-42df-afe2-1a8bba5b7f6e"
+			searchtimeout="30000ms"
+			capname="indicator"
+			refpath="/form[@title='另存新檔']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/element[@class='CtrlNotifySink' and @instance='0']/scrollbar[@style='Custom']/indicator"
+			addcaps="indicator"
+			refimgid="653ab5da-9e10-4f73-9e5f-9b8137c8fa86">
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/container[@class='DirectUIHWND']/element[@instance='0']/scrollbar[@style='Custom']/indicator
+			</item>
+			<item
+			name="項目檢視"
+			id="b07656b8-818d-4794-866a-646cb135ab43"
+			searchtimeout="30000ms"
+			capname="list"
+			refpath="/form[@title='另存新檔']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/list[@accessiblename='項目檢視']"
+			addcaps="list,accessible"
+			refimgid="44a23889-c645-464e-aa8d-4132e4f91d79">
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']/element[@class='DUIViewWndClassName']/container/element[3]//list[@accessiblename='&#38917;&#30446;&#27298;&#35222;']
+			</item>
+			<item
+			name="SystemItemNameDisplay"
+			id="04047dbe-42a9-4209-80dd-b8f3a33e927c"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='另存新檔']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='14']/text[@automationid='System.ItemNameDisplay']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="6c79f645-968a-430b-a26e-738948ddd4de">
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']/element[@class='DUIViewWndClassName']/container/element[3]//listitem[@automationid='14']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<basepath>
+				/form[@title='&#21478;&#23384;&#26032;&#27284;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALySURBVDhPtZNfSFNxFMdHSfQSFASVRWgvRVZI
+6UNSTefmLDd17G7zz7zMod5peZ1u6uaas3JOzeEUXXq3NHWukFnTgSY2NHCQf6YShBbG0ECCAp+i
+p3b63atCkvTWgQ98z++e8+X87rmXtRvX4+Li75WU2IoKChb+RT6eN8fncl0SieTgTut24Lm5/bOz
+c7C29hkWFoLg8QyDyzUIbvdzGBkZZTTN7LvZcEG+Yp7NZkfstG6HqqjIHZipQgYt4KAoiI+7BpGR
+kRAdHQW85GRG03hfeUGlIt7/ZVBcSAyaH9aCtbkBdJVaSE+7AzwOB1K5XBBnZjKaZuL1xP4GZSTp
+CMwE0ARrMOzxgGtggNHBYBBMxvuMpllZWd3fgCwlqbGxMXT/BXA6KKC6uxn9ZnIS1GQpo2mWFpf+
+kwFBEPb+vj7wjY5CS3MzPG5qAp/PB+7BQVAVFTLnNGhTv6qrq+tNJtOBndbtQC/rRgqXoxGkJulE
+wsRHmQK2uUCZs56RxvGKBOwmkZBtFN5O0nu9XsPQ0NChnTYWy2KxaBD1u7x033r7cfkohFaO7OFD
+8Bh0tScu/lnb0NCYz8rCMHOVmjdeZ0jczJJK7Vp1wjTVFb31rOfsHuyd57byctkBumYXGYaVsXp7
+ew+vf0ovn5u+uVxRUXHcZNKe7Olp5dvtjXylkn++rEwW5XDYeE5nWwpByKLQ3SP8fn/M1NTUpZoa
+9SkWRVGxRqMxnJ2dDXJ5TpXT6UxDRmEcx0EqlWahzVzR6XRA51kSCWm1Wk+j8X+gZ6BU4G2MgcFg
+CGeir+2p/er3uemETRKtTSaTgWfgwtfVxdgNrVZDm0Hvk8vfVufPhCyWurBAIABcLm9nDMxmc5jP
+54P6blrnCxepoSeQSDCoLOfU+sdL8vR6PYjFYiCLea1ed1K6zdb6Mxn9H4xBR0dHTI1e/wUlIUwk
+IlCeXK5WbyhwPJSRIRCitV3UajTrynxFKEMoVNhs5hMP6urW6HoZhtX+Bg0m9T4W1mtfAAAAAElF
+TkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

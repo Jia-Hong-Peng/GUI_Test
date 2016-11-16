@@ -4,20 +4,25 @@ name="Test2"
 rxversion="5.0.2.17874">
 	<modulegroupdef
 	name="InitModuleGroup"
-	id="36e7eed0-9c95-429a-a6c5-30c133b83611">
+	id="ca491a4e-aaf1-417a-a37b-21b009f172ec">
+		<testmodule
+		name="KillProcess"
+		id="dbe00730-168c-4363-8116-a854cebb6beb"
+		ref="6cee15a5-a606-4c9c-b36d-17370641e204"
+		type="UserCode"/>
 		<testmodule
 		name="OpenVisualStudio2013"
-		id="4b9d2feb-73bc-47a3-a75f-52ee916eb578"
+		id="a26d7516-93b7-4867-b18e-ff5c9daff5bf"
 		ref="0c6a5938-1abf-401e-86d4-b5f45276aa32"
 		type="UserCode"/>
 		<testmodule
 		name="DeleteEcatSaveFile"
-		id="0fb71449-1d08-4d9a-8d6f-972d1484c104"
+		id="68bc5ccf-c1f2-499a-bb38-3d4c00e4258d"
 		ref="d2d0273a-a41b-49af-8583-5a5aa34ec3fe"
 		type="UserCode"/>
 		<testmodule
 		name="RunDebugModule"
-		id="5ffc0c69-7e62-4784-81cd-c00694ed3e3a"
+		id="7cb0164f-bb05-4907-8759-af12ee27228e"
 		ref="2d3aebd1-890d-47bb-b25d-473175b08da6"
 		type="Recording"/>
 	</modulegroupdef>
@@ -67,6 +72,11 @@ rxversion="5.0.2.17874">
 		name="CopySampleModule"
 		id="0af0a5d9-ea02-4226-99e7-dd6f85b5974b"
 		ref="0c064d7b-0efc-4203-9ef9-96b9f96fc491"
+		type="UserCode"/>
+		<testmodule
+		name="CompareFileModule"
+		id="c8e45079-58f7-4589-8e4e-bf1d2c75c055"
+		ref="8621fff0-fdcf-4bb3-9c1e-2f5eab699011"
 		type="UserCode"/>
 	</modulegroupdef>
 </modulegroups>

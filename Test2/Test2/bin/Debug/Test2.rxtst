@@ -16,8 +16,8 @@ reportlevel="Info;20">
 		id="589f0d70-1c12-4167-8193-1ab405780e07">
 			<modulegroup
 			name="InitModuleGroup"
-			id="d032d1fe-8cc0-4580-ac7d-2825b4ab14f0"
-			ref="36e7eed0-9c95-429a-a6c5-30c133b83611"/>
+			id="636b83c9-bfa5-49a3-8c29-7d906f4bf9a8"
+			ref="ca491a4e-aaf1-417a-a37b-21b009f172ec"/>
 			<modulegroup
 			name="TestCaseModuleGroup"
 			id="bc2f9423-927d-43c6-b0b5-cfa3520bfdf8"

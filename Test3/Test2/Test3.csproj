@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Exe</OutputType>
     <RootNamespace>Test2</RootNamespace>
-    <AssemblyName>Test2</AssemblyName>
+    <AssemblyName>Test3</AssemblyName>
     <RanorexVersion>5</RanorexVersion>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <projectdefaultrepository>9389b980-ef4a-4499-a5df-01f3c534a1df</projectdefaultrepository>
@@ -86,7 +86,7 @@
       <id>db60c152-ba9d-4d7b-a18e-f7036220c940</id>
     </Compile>
     <Compile Include="InitModule\KillProcess.cs">
-      <id>e0d55eae-90ea-4d03-8e19-2c8707d47768</id>
+      <id>f8721075-3943-4af3-9fe3-f52268a5e962</id>
     </Compile>
     <Compile Include="InitModule\OpenVisualStudio2013.cs">
       <id>53400a3d-b6a1-4c87-8c33-ba319496eaf4</id>
@@ -124,9 +124,9 @@
       <RepositoryCode>true</RepositoryCode>
       <id>a57845f5-8f49-4de0-a355-e0f9d37ea7bf</id>
     </Compile>
-    <Compile Include="Test2Repository.cs">
+    <Compile Include="Test3Repository.cs">
       <BoundTo>9389b980-ef4a-4499-a5df-01f3c534a1df</BoundTo>
-      <DependentUpon>Test2Repository.rxrep</DependentUpon>
+      <DependentUpon>Test3Repository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
       <id>cacb7608-6965-4a17-a7b1-d2b7549057c9</id>
     </Compile>
@@ -178,18 +178,6 @@
       <UserCode>true</UserCode>
       <id>d21e0c4f-40ca-4cac-bda0-1d35ca342a2a</id>
     </Compile>
-    <Compile Include="TestCaseModule\Slave4.cs">
-      <BoundTo>d1b0289f-cfaa-4f84-9337-b759cc70c085</BoundTo>
-      <DependentUpon>Slave4.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>b835dce9-1b7f-4bda-a1b2-9a0d0bbfc166</id>
-    </Compile>
-    <Compile Include="TestCaseModule\Slave4.UserCode.cs">
-      <BoundTo>d1b0289f-cfaa-4f84-9337-b759cc70c085</BoundTo>
-      <DependentUpon>Slave4.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>643e0d52-ed8c-4765-8284-29ad11419578</id>
-    </Compile>
     <Compile Include="TestCaseModule\TestCaseRepository.cs">
       <BoundTo>ef6fa5de-ad7b-4f9f-8940-51e729c38012</BoundTo>
       <DependentUpon>TestCaseRepository.rxrep</DependentUpon>
@@ -233,13 +221,13 @@
       <repoid>fb9a4ff0-a56e-4bb7-a5ee-37841bef1bf3</repoid>
       <reporootid>f5371997-a6fa-414b-982c-ce9483774a2c</reporootid>
     </None>
-    <None Include="Test2Repository.rximg">
+    <None Include="Test3Repository.rximg">
       <BoundTo>9389b980-ef4a-4499-a5df-01f3c534a1df</BoundTo>
-      <DependentUpon>Test2Repository.rxrep</DependentUpon>
+      <DependentUpon>Test3Repository.rxrep</DependentUpon>
       <imageblob>true</imageblob>
       <id>6d44253f-1ce8-48bd-8ac1-e31f2e4ea7ab</id>
     </None>
-    <None Include="Test2Repository.rxrep">
+    <None Include="Test3Repository.rxrep">
       <id>9389b980-ef4a-4499-a5df-01f3c534a1df</id>
       <repoid>328a1abf-ba19-4a61-9ba5-da4e87c7555f</repoid>
       <reporootid>d269307b-4b01-4ff0-9036-b1cb890e7044</reporootid>
@@ -260,10 +248,6 @@
       <BoundTo>9389b980-ef4a-4499-a5df-01f3c534a1df</BoundTo>
       <id>cd81160f-a76a-41c6-af9d-655be7ca91e2</id>
     </None>
-    <None Include="TestCaseModule\Slave4.rxrec">
-      <BoundTo>9389b980-ef4a-4499-a5df-01f3c534a1df</BoundTo>
-      <id>d1b0289f-cfaa-4f84-9337-b759cc70c085</id>
-    </None>
     <None Include="TestCaseModule\TestCaseRepository.rximg">
       <BoundTo>ef6fa5de-ad7b-4f9f-8940-51e729c38012</BoundTo>
       <DependentUpon>TestCaseRepository.rxrep</DependentUpon>
@@ -275,11 +259,11 @@
       <repoid>9911c6a4-a1e7-4612-8152-e251e7fcae68</repoid>
       <reporootid>8e410807-1216-43c2-b58b-47d799db0f9e</reporootid>
     </None>
-    <Content Include="Test2.rxtmg">
+    <Content Include="Test3.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>8f5dfee7-5d62-44b6-9cc8-81bbe1128fca</id>
     </Content>
-    <Content Include="Test2.rxtst">
+    <Content Include="Test3.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>bb1d48c9-b551-46b0-ba3b-ec9c01293c50</id>
     </Content>
