@@ -1,0 +1,99 @@
+﻿<report>
+	<activity
+	user="JAMES.PENG"
+	host="TWTY3PC0492"
+	rxversion="5.0.2.17874"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="4.0.30319.42000"
+	procarch="32bit"
+	language="zh-TW"
+	screenresolution="3840x1080"
+	timestamp="2016/11/15 下午 04:05:38"
+	timestampiso="2016-11-15T08:05:38"
+	module="RunDebugModule"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="2de5003077faf488"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			RunDebugModule
+		</detail>
+		<errmsg>
+			Failed to find item 'Test2Repository.MainForm.ECATBuilder'.
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.295"
+		level="Info"
+		category="Mouse"
+		errimg=".\RunDebugModule20161115_160512_ce0f1ab9_trace.jpg"
+		errthumb=".\RunDebugModule20161115_160512_ce0f1ab9_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'VisualStudioMainWindow.PARTFocusTarget' at 36;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@automationid='VisualStudioMainWindow']/?/?/toolbar[@name='標準']/button[@name='偵錯目標']/?/?/menuitem[@automationid='PART_FocusTarget']"
+			fullname="Test2Repository.VisualStudioMainWindow.PARTFocusTarget"
+			id="bd12be252dca446d9b3f1e4399b511b6"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\InitModule\RunDebugModule.cs"
+			codeline="81"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.615"
+		level="Info"
+		category="Mouse"
+		errimg=".\RunDebugModule20161115_160512_28895e5d_trace.jpg"
+		errthumb=".\RunDebugModule20161115_160512_28895e5d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MainForm.ECATBuilder' at 1756;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']/titlebar[@accessiblerole='TitleBar']"
+			fullname="Test2Repository.MainForm.ECATBuilder"
+			id="a4691a66fbd146dd961157f00bd3f3d7"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\InitModule\RunDebugModule.cs"
+			codeline="85"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="01:01.813"
+		level="Error"
+		category="Module"
+		errimg=".\RunDebugModule20161115_160512_413d17e1_trace.jpg"
+		errthumb=".\RunDebugModule20161115_160512_413d17e1_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Test2Repository.MainForm.ECATBuilder'.<br/>No element found for path '/form[@controlname='MainForm']/titlebar[@accessiblerole='TitleBar']' within 1m.
+			</message>
+			<metainfo
+			stacktrace="   於 Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   於 Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException)
+   於 Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   於 Test2.Test2RepositoryFolders.MainFormAppFolder.get_ECATBuilder() 於 d:\GuiTest\GUI_Test\Test2\Test2\Test2Repository.cs: 行 572
+   於 Test2.InitModule.RunDebugModule.Ranorex.Core.Testing.ITestModule.Run() 於 d:\GuiTest\GUI_Test\Test2\Test2\InitModule\RunDebugModule.cs: 行 86
+   於 Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\InitModule\RunDebugModule.cs"
+			codeline="86"
+			type="repoitem"
+			path="/form[@controlname='MainForm']/titlebar[@accessiblerole='TitleBar']"
+			fullname="Test2Repository.MainForm.ECATBuilder"
+			id="a4691a66fbd146dd961157f00bd3f3d7"
+			timeout="60000"
+			loglvl="Error"
+			itemindex="1"/>
+		</item>
+	</activity>
+</report>

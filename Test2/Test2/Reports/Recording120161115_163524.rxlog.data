@@ -1,0 +1,99 @@
+﻿<report>
+	<activity
+	user="JAMES.PENG"
+	host="TWTY3PC0492"
+	rxversion="5.0.2.17874"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="4.0.30319.42000"
+	procarch="32bit"
+	language="zh-TW"
+	screenresolution="3840x1080"
+	timestamp="2016/11/15 下午 04:35:27"
+	timestampiso="2016-11-15T08:35:27"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="b72fe7dab147952"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'Test2Repository.MainForm.Open'.
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.291"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120161115_163524_2fc3b2a7_trace.jpg"
+		errthumb=".\Recording120161115_163524_2fc3b2a7_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MainForm.Diagram1' at 235;113.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//form[@controlname='NWForm']/?/?/container[@controlname='panel1']/form[@controlname='NetworkDiagram']/element[@controlname='diagram1']"
+			fullname="Test2Repository.MainForm.Diagram1"
+			id="d2b6393bfb494ed888cee05062e090f1"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\Recording1.cs"
+			codeline="81"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.442"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120161115_163524_28f421c3_trace.jpg"
+		errthumb=".\Recording120161115_163524_28f421c3_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MainForm.Open' at 6;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='MasterConfigForm']/?/?/tabpage[@controlname='tabPage_General']//combobox[@accessiblename='2000']/button[@accessiblename='Open']"
+			fullname="Test2Repository.MainForm.Open"
+			id="992ff7ce71d54f30b7823e4316db9109"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\Recording1.cs"
+			codeline="85"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:36.816"
+		level="Error"
+		category="Module"
+		errimg=".\Recording120161115_163524_56df9089_trace.jpg"
+		errthumb=".\Recording120161115_163524_56df9089_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Test2Repository.MainForm.Open'.<br/>No element found for path './/container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='MasterConfigForm']/?/?/tabpage[@controlname='tabPage_General']//combobox[@accessiblename='2000']/button[@accessiblename='Open']' within 30s.
+			</message>
+			<metainfo
+			stacktrace="   於 Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   於 Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException)
+   於 Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   於 Test2.Test2RepositoryFolders.MainFormAppFolder.get_Open() 於 d:\GuiTest\GUI_Test\Test2\Test2\Test2Repository.cs: 行 332
+   於 Test2.Recording1.Ranorex.Core.Testing.ITestModule.Run() 於 d:\GuiTest\GUI_Test\Test2\Test2\Recording1.cs: 行 86
+   於 Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\Recording1.cs"
+			codeline="86"
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='MasterConfigForm']/?/?/tabpage[@controlname='tabPage_General']//combobox[@accessiblename='2000']/button[@accessiblename='Open']"
+			fullname="Test2Repository.MainForm.Open"
+			id="992ff7ce71d54f30b7823e4316db9109"
+			timeout="60000"
+			loglvl="Error"
+			itemindex="1"/>
+		</item>
+	</activity>
+</report>

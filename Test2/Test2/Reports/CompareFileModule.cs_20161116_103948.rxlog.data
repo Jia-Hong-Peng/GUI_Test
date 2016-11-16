@@ -1,0 +1,42 @@
+﻿<report>
+	<activity
+	user="JAMES.PENG"
+	host="TWTY3PC0492"
+	rxversion="5.0.2.17874"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="4.0.30319.42000"
+	procarch="32bit"
+	language="zh-TW"
+	screenresolution="3840x1080"
+	timestamp="2016/11/16 上午 10:39:50"
+	timestampiso="2016-11-16T02:39:50"
+	module="CompareFileModule"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="258ee264b594eba"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			CompareFileModule
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.298"
+		level="Success"
+		category="Validation">
+			<message>
+				File comparison
+			</message>
+			<metainfo
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\EndModule\CompareFileModule.cs"
+			codeline="53"
+			loglvl="Success"/>
+		</item>
+	</activity>
+</report>

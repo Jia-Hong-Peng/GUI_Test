@@ -1,0 +1,66 @@
+﻿<report>
+	<activity
+	user="JAMES.PENG"
+	host="TWTY3PC0492"
+	rxversion="5.0.2.17874"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="4.0.30319.42000"
+	procarch="32bit"
+	language="zh-TW"
+	screenresolution="3840x1080"
+	timestamp="2016/11/16 上午 10:40:12"
+	timestampiso="2016-11-16T02:40:12"
+	module="CompareFileModule"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1210a0464d4fa538"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			CompareFileModule
+		</detail>
+		<errmsg>
+			File comparison
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.295"
+		level="Failure"
+		category="Validation"
+		errimg=".\CompareFileModule.cs_20161116_104010_97c3cdd8_trace.jpg"
+		errthumb=".\CompareFileModule.cs_20161116_104010_97c3cdd8_trace_thumb.jpg">
+			<message>
+				File comparison
+			</message>
+			<metainfo
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\EndModule\CompareFileModule.cs"
+			codeline="53"
+			loglvl="Failure"/>
+		</item>
+		<item
+		time="00:00.376"
+		level="Error"
+		category="Module"
+		errimg=".\CompareFileModule.cs_20161116_104010_f1df7192_trace.jpg"
+		errthumb=".\CompareFileModule.cs_20161116_104010_f1df7192_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. File comparison
+			</message>
+			<metainfo
+			stacktrace="   於 Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   於 Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Options options)
+   於 Ranorex.Validate.AreEqual(Object actual, Object expected, String message, Boolean exceptionOnFail)
+   於 Test2.EndModule.CompareFileModule.Ranorex.Core.Testing.ITestModule.Run() 於 d:\GuiTest\GUI_Test\Test2\Test2\EndModule\CompareFileModule.cs: 行 53
+   於 Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\EndModule\CompareFileModule.cs"
+			codeline="53"
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

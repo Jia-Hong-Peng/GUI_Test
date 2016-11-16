@@ -1,0 +1,50 @@
+﻿<repository
+name="InitRepository"
+id="cc7be96b-a7b4-4ad1-adf4-2b7b8cf7e563"
+rxversion="5.0.2.17874">
+	<codegen
+	classname="InitRepository"
+	namespace="Test2.InitModule"/>
+	<rootfolder
+	name="Root"
+	id="06125b2e-82b2-4af7-ab62-e6a19e9c338d"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="VisualStudioMainWindow"
+		id="ae8631c6-a227-430f-8c4c-19f55aa8255c"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@automationid='VisualStudioMainWindow']"
+		addcaps="form,uiautomation,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="PARTFocusTarget"
+			id="bd12be25-2dca-446d-9b3f-1e4399b511b6"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/form[@automationid='VisualStudioMainWindow']/container[@name='ToolBarDockTop']/toolbar[@name='標準']/button[@name='偵錯目標']/contextmenu/menuitem[@automationid='PART_FocusTarget']"
+			addcaps="menuitem,uiautomation,uiautomationinvoke"
+			refimgid="30d14e05-6ab9-4535-a3d6-448f2c3b32ce">
+				/form[@automationid='VisualStudioMainWindow']/?/?/toolbar[@name='&#27161;&#28310;']/button[@name='&#20597;&#37679;&#30446;&#27161;']/?/?/menuitem[@automationid='PART_FocusTarget']
+			</item>
+			<basepath>
+				/form[@automationid='VisualStudioMainWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADySURBVDhPlZMxCsIwFIY9glfwAOIJPIH3EDcR
+nHSR4ubQobgKrlJwEQcP4Ca49AQFJ0lvkGf/Z1Je09TGD16avPf+v03a9v6BHLTWsSl1A0EyPdB8
+uOHrKbqwiSlzQ99MG6ARotlgVQvQw2PwzGA0Fcj5xJUBhvP+Suvxjo7L9Js0YN4mRnAvBpm0JsAV
+oybXoGZgGyCU4sUoonv6YIHNIUDNALh32U4SyrMX14CsgSCDd664BmQNBG/hectYYHMI4D1EpVSB
+cA8RH49cVwZtr9FnIoN7uz6kXya+fi9tJsEGQJrg2viZQii3WyBKCKG1jj9y9gc5Xt+FUAAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

@@ -1,0 +1,8 @@
+D:\GuiTest\GUI_Test\Test2\Test2\bin\Debug\Test2.rxtmg
+D:\GuiTest\GUI_Test\Test2\Test2\bin\Debug\Test2.rxtst
+D:\GuiTest\GUI_Test\Test2\Test2\bin\Debug\Test2.exe.config
+D:\GuiTest\GUI_Test\Test2\Test2\bin\Debug\Test2.exe
+D:\GuiTest\GUI_Test\Test2\Test2\bin\Debug\Test2.pdb
+D:\GuiTest\GUI_Test\Test2\Test2\obj\x86\Debug\Test2.csprojResolveAssemblyReference.cache
+D:\GuiTest\GUI_Test\Test2\Test2\obj\x86\Debug\Test2.exe
+D:\GuiTest\GUI_Test\Test2\Test2\obj\x86\Debug\Test2.pdb

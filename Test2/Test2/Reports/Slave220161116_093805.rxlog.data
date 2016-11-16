@@ -1,0 +1,570 @@
+﻿<report>
+	<activity
+	user="JAMES.PENG"
+	host="TWTY3PC0492"
+	rxversion="5.0.2.17874"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="4.0.30319.42000"
+	procarch="32bit"
+	language="zh-TW"
+	screenresolution="3840x1080"
+	timestamp="2016/11/16 上午 09:38:08"
+	timestampiso="2016-11-16T01:38:08"
+	module="Slave2"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="67495288d9bc99d"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Slave2
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.302"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Down item 'MainForm.ProdListPanel' at 1;449.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']/container[@controlname='prodListPanel']"
+			fullname="Test2Repository.MainForm.ProdListPanel"
+			id="f4a5e46e81f142ec85bbc8b934cd0959"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="81"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.527"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Up item 'EIPBuilderVshost1' at 1721;521.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='' and @processname='EIP Builder.vshost']"
+			fullname="Test2Repository.EIPBuilderVshost1.Self"
+			id="5fdb35a1aafb47df94b9db8f5d5909c6"
+			timeout="30000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.166"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.SGDVE1CoEDrive0x10000' at 56;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']/container[@controlname='prodListPanel']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/tree[@accessiblerole='Outline']//treeitem[@accessiblename~'^SGDV-E1\ CoE\ Drive\ \(0x1000']"
+			fullname="Test2Repository.MainForm.SGDVE1CoEDrive0x10000"
+			id="5348e8aa59e14018bb5ac2447516955f"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="91"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.549"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'MainForm.SGDVE1CoEDrive0x10000' at 56;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']/container[@controlname='prodListPanel']//form[@controlname='ProdListForm']/?/?/tree[@controlname='treeView_ProdList']/tree[@accessiblerole='Outline']//treeitem[@accessiblename~'^SGDV-E1\ CoE\ Drive\ \(0x1000']"
+			fullname="Test2Repository.MainForm.SGDVE1CoEDrive0x10000"
+			id="5348e8aa59e14018bb5ac2447516955f"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="95"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.871"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.UpDownEdit' at 39;8.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_General']/container[@controlname='numUpDown_NodeId']/text[@controlname='upDownEdit']"
+			fullname="Test2Repository.MainForm.NWForm.UpDownEdit"
+			id="2d06c92067774f22b40b350b0d7dfc05"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="99"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.489"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{Back}' with focus on 'MainForm.NWForm.UpDownEdit'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_General']/container[@controlname='numUpDown_NodeId']/text[@controlname='upDownEdit']"
+			fullname="Test2Repository.MainForm.NWForm.UpDownEdit"
+			id="2d06c92067774f22b40b350b0d7dfc05"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="103"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:10.326"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{NumPad2}' with focus on 'MainForm.NWForm.UpDownEdit'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_General']/container[@controlname='numUpDown_NodeId']/text[@controlname='upDownEdit']"
+			fullname="Test2Repository.MainForm.NWForm.UpDownEdit"
+			id="2d06c92067774f22b40b350b0d7dfc05"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="107"
+			itemindex="6"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:11.894"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.TabPageGeneral' at 346;180.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_General']"
+			fullname="Test2Repository.MainForm.NWForm.TabPageGeneral"
+			id="27cdb0fbd1e049369c8bdcf2f5142157"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="111"
+			itemindex="7"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:13.797"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.PDOMapping' at 30;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@accessiblename='PDO Mapping']"
+			fullname="Test2Repository.MainForm.NWForm.PDOMapping"
+			id="6edf855a0cf14a29a5c5466e094064f2"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="115"
+			itemindex="8"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:15.613"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Down item 'MainForm.NWForm.Position' at 8;21.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/element[@controltypename='VTLScrollBar']/scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']"
+			fullname="Test2Repository.MainForm.NWForm.Position"
+			id="1fa080ff6ed34761b41138ff8f32a973"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="119"
+			itemindex="9"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:17.770"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Up item 'MainForm.NWForm.Position' at 6;53.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']/element[@controlname='cellMergeTreeList_Input']/element[@controltypename='VTLScrollBar']/scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']"
+			fullname="Test2Repository.MainForm.NWForm.Position"
+			id="1fa080ff6ed34761b41138ff8f32a973"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="124"
+			itemindex="10"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:19.637"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.NameRow12' at 14;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']//tree[@accessiblename='Not Available']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node12']/cell[@accessiblename='Name row 12']"
+			fullname="Test2Repository.MainForm.NWForm.NameRow12"
+			id="2e4f50cbdf5b47d688afc2c6bd1a837e"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="129"
+			itemindex="11"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:22.230"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Down item 'MainForm.NWForm.Position1' at 9;24.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']//scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']"
+			fullname="Test2Repository.MainForm.NWForm.Position1"
+			id="ea15f72533af4c6c92e2fb9a617827e7"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="133"
+			itemindex="12"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:24.476"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Up item 'MainForm.NWForm.Position1' at 2;49.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']//scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']"
+			fullname="Test2Repository.MainForm.NWForm.Position1"
+			id="ea15f72533af4c6c92e2fb9a617827e7"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="138"
+			itemindex="13"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:26.729"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.NameRow9' at 7;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']//tree[@accessiblerole='Outline']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node9']/cell[@accessiblename='Name row 9']"
+			fullname="Test2Repository.MainForm.NWForm.NameRow9"
+			id="1796d183401147b8a2aec6d9743081e1"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="143"
+			itemindex="14"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:29.122"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Down item 'MainForm.NWForm.Position1' at 8;31.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']//scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']"
+			fullname="Test2Repository.MainForm.NWForm.Position1"
+			id="ea15f72533af4c6c92e2fb9a617827e7"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="147"
+			itemindex="15"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:31.392"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Up item 'MainForm.NWForm.Position1' at 3;81.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_PdoMapping']/?/?/container[@controlname='tableLayoutPanel1']//scrollbar[@accessiblename='scroll bar']/indicator[@accessiblename='Position']"
+			fullname="Test2Repository.MainForm.NWForm.Position1"
+			id="ea15f72533af4c6c92e2fb9a617827e7"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="152"
+			itemindex="16"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:33.722"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.IOMapping' at 39;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@accessiblename='I/O Mapping']"
+			fullname="Test2Repository.MainForm.NWForm.IOMapping"
+			id="14fae1c7cfb44b939bbdf9f7dffab9c6"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="157"
+			itemindex="17"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:35.460"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.SymbolRow0' at 23;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Symbol row 0']"
+			fullname="Test2Repository.MainForm.NWForm.SymbolRow0"
+			id="36ef02e5b85f4c6eb9f909476acc8747"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="161"
+			itemindex="18"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:37.884"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'ysw' with focus on 'MainForm.NWForm.SymbolRow0'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node0']/cell[@accessiblename='Symbol row 0']"
+			fullname="Test2Repository.MainForm.NWForm.SymbolRow0"
+			id="36ef02e5b85f4c6eb9f909476acc8747"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="165"
+			itemindex="19"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:40.058"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.SymbolRow1' at 19;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Symbol row 1']"
+			fullname="Test2Repository.MainForm.NWForm.SymbolRow1"
+			id="628521ee010c47b28706b98b4906a501"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="169"
+			itemindex="20"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:42.371"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'yp' with focus on 'MainForm.NWForm.SymbolRow1'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Symbol row 1']"
+			fullname="Test2Repository.MainForm.NWForm.SymbolRow1"
+			id="628521ee010c47b28706b98b4906a501"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="173"
+			itemindex="21"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:44.295"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'a' with focus on 'MainForm.NWForm.SymbolRow1'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Symbol row 1']"
+			fullname="Test2Repository.MainForm.NWForm.SymbolRow1"
+			id="628521ee010c47b28706b98b4906a501"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="177"
+			itemindex="22"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:46.264"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'v' with focus on 'MainForm.NWForm.SymbolRow1'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Symbol row 1']"
+			fullname="Test2Repository.MainForm.NWForm.SymbolRow1"
+			id="628521ee010c47b28706b98b4906a501"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="181"
+			itemindex="23"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:48.143"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'MainForm.NWForm.SymbolRow1'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_IOMapping']//tree[@accessiblename='Select the Outputs']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Symbol row 1']"
+			fullname="Test2Repository.MainForm.NWForm.SymbolRow1"
+			id="628521ee010c47b28706b98b4906a501"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="185"
+			itemindex="24"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:50.012"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.InitCommands' at 60;5.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@accessiblename='Init Commands']"
+			fullname="Test2Repository.MainForm.NWForm.InitCommands"
+			id="0d6e0e5057bb4554bcf0ce0ee8b82f3d"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="189"
+			itemindex="25"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:51.849"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.IndexRow1' at 70;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']//tree[@accessiblename='Init Commands']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Index row 1']"
+			fullname="Test2Repository.MainForm.NWForm.IndexRow1"
+			id="0ad3dac4c59b453f95d79118976ec957"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="193"
+			itemindex="26"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:54.141"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'MainForm.NWForm.IndexRow1' at 70;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/?/?/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']//tree[@accessiblename='Init Commands']/container[@accessiblename='Data Panel']/treeitem[@accessiblename='Node1']/cell[@accessiblename='Index row 1']"
+			fullname="Test2Repository.MainForm.NWForm.IndexRow1"
+			id="0ad3dac4c59b453f95d79118976ec957"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="197"
+			itemindex="27"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:56.329"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.NWForm.Delete' at 53;14.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='SlaveConfigForm']/?/?/tabpage[@controlname='tabPage_InitCmd']/?/?/container[@controlname='tableLayoutPanel9']/?/?/button[@accessiblename='Delete']"
+			fullname="Test2Repository.MainForm.NWForm.Delete"
+			id="b59b259a6c9c4319b6bde65f0dcb5ebd"
+			timeout="90000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="201"
+			itemindex="28"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:58.552"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Warning.ButtonOK' at 42;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Warning!']/?/?/button[@accessiblename='OK']"
+			fullname="Test2Repository.Warning.ButtonOK"
+			id="3c6a9562ea864516bac84859bc58794d"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\Slave2.cs"
+			codeline="205"
+			itemindex="29"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

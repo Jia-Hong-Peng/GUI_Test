@@ -1,0 +1,40 @@
+﻿<testsuite
+name="Test2"
+rxversion="5.0.2.17874"
+id="ed0a01ed-c19c-4c65-a474-f7d5d126d3bb"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="589f0d70-1c12-4167-8193-1ab405780e07">
+			<modulegroup
+			name="InitModuleGroup"
+			id="d032d1fe-8cc0-4580-ac7d-2825b4ab14f0"
+			ref="36e7eed0-9c95-429a-a6c5-30c133b83611"/>
+			<modulegroup
+			name="TestCaseModuleGroup"
+			id="bc2f9423-927d-43c6-b0b5-cfa3520bfdf8"
+			ref="ebc92618-b6df-4062-9275-68799e42c3d5"/>
+			<modulegroup
+			name="EndModuleGroup"
+			id="70d03b9a-916d-4584-a51d-456531d75dda"
+			ref="58d8ba28-e816-45a7-b125-1a156a623aa0"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="589f0d70-1c12-4167-8193-1ab405780e07"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

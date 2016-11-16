@@ -1,0 +1,74 @@
+﻿<report>
+	<activity
+	user="JAMES.PENG"
+	host="TWTY3PC0492"
+	rxversion="5.0.2.17874"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="4.0.30319.42000"
+	procarch="32bit"
+	language="zh-TW"
+	screenresolution="3840x1080"
+	timestamp="2016/11/15 下午 03:34:22"
+	timestampiso="2016-11-15T07:34:22"
+	module="SetMasterModule"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="371361c7d42044b"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			SetMasterModule
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.315"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.Diagram1' at 241;111.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//form[@controlname='NWForm']/?/?/container[@controlname='panel1']/form[@controlname='NetworkDiagram']/element[@controlname='diagram1']"
+			fullname="TestCaseRepository.MainForm.Diagram1"
+			id="d2b6393bfb494ed888cee05062e090f1"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\SetMasterModule.cs"
+			codeline="52"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.409"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.Open' at 1;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@controlname='MainForm']//container[@controlname='UserControl_Form']/form[@controlname='NWForm']/container[@controlname='splitContainerControl']/container[@controlname='panel2']//form[@controlname='MasterConfigForm']/?/?/tabpage[@controlname='tabPage_General']//combobox[@accessiblename='2000']/button[@accessiblename='Open']"
+			fullname="TestCaseRepository.MainForm.Open"
+			id="992ff7ce71d54f30b7823e4316db9109"
+			timeout="60000"
+			codefile="d:\GuiTest\GUI_Test\Test2\Test2\TestCaseModule\SetMasterModule.cs"
+			codeline="56"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:20.185"
+		level="Error"
+		category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+		</item>
+	</activity>
+</report>
